@@ -111,28 +111,28 @@ button:before {
 a {
   text-decoration: none;
 }
-.inform {
+.block-inform {
   height: 635px;
   background-image: url(picture/fon.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.inform__title {
+.box-inform__title {
   margin: 0;
 }
-.inform-box {
+.box-inform {
   padding-left: 300px;
   padding-top: 195px;
   width: 650px;
 }
-.inform__title {
+.box-inform__title {
   color: #4b90de;
 }
-.inform__text {
+.box-inform__text {
   margin-top: 30px;
 }
-.inform__button {
+.box-inform__button {
   background-color: #2073d4;
   color: #fff;
   line-height: 70px;
@@ -142,7 +142,7 @@ a {
   font-size: 20px;
   margin-top: 50px;
 }
-.inform__button:hover {
+.box-inform__button:hover {
   background-color: #005bbe;
   color: #fff;
 }
@@ -152,8 +152,7 @@ a {
   align-items: center;
   height: 168px;
 }
-.box-partners
- {
+.box-partners img {
   padding: 0 10px;
 }
 .all-partners__button {
