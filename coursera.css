@@ -4,21 +4,26 @@ body {
   padding: 0;
   background-position: center;
 }
+
 header {
   height: 65px;
   width: 100%;
 }
+
 h2 {
   font-size: 30px;
 }
+
 h3 {
   font-size: 26px;
 }
+
 .logo__styled-list {
   position: relative;
   width: 490px;
 }
-input {
+
+.logo__list input {
   width: 100%;
   height: 40px;
   padding-left: 10px;
@@ -28,19 +33,20 @@ input {
   color: #9E9C9C;
   font-size: 16px;
 }
+
 .logo {
   display: flex;
   justify-content: space-between;
   height: 65px;
 }
+
 .logo__styled {
   display: flex;
   align-items: center;
 }
-button {
+
+.logo__list button {
   position: absolute;
-  top: 0;
-  right: 0px;
   width: 40px;
   height: 40px;
   border: none;
@@ -48,16 +54,19 @@ button {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
-button:before {
+
+.logo__list button:before {
   content: "\f002";
   font-family: FontAwesome;
   font-size: 16px;
   color: #F9F0DA;
 }
-.logo__styled-coursera {
+
+.logo__coursera {
   padding: 16px 24px 16px 20px;
 }
-.logo__styled-select select {
+
+.logo__select select {
   width: 100px;
   height: 36px;
   border: 1px;
@@ -66,7 +75,8 @@ button:before {
   font-weight: 700;
   text-align: center;
 }
-.logo__styled-select {
+
+.logo__select {
   width: 100px;
   height: 36px;
   border-radius: 5px;
@@ -74,11 +84,13 @@ button:before {
   background-color: #2a73cc;
   margin-right: 30px;
 }
+
 .logo__authorization {
   display: flex;
   align-items: center;
 }
-.logo__authorization-button {
+
+.logo__button {
   margin-right: 26px;
   width: 214px;
   line-height: 36px;
@@ -88,51 +100,60 @@ button:before {
   text-align: center;
   font-size: 14px;
 }
-.logo__authorization-button:hover {
+
+.logo__button:hover {
   background-color: #005bbe;
-  color: #fff;
 }
-.logo__authorization-info {
+
+.logo__info {
   color: #000;
   font-size: 14px;
   padding-right: 50px;
 }
-.logo__authorization-info:hover {
+
+.logo__info:hover {
   color: #2a73cc;
 }
-.logo__authorization-login {
+
+.logo__login {
   font-size: 14px;
   padding-right: 25px;
   color: #2a73cc;
 }
+
 .wrap {
   width: 100%;
 }
 a {
   text-decoration: none;
 }
-.block-inform {
+
+.inform {
   height: 635px;
   background-image: url(picture/fon.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.box-inform__title {
+
+.inform__title {
   margin: 0;
 }
-.box-inform {
+.inform__box {
   padding-left: 300px;
   padding-top: 195px;
   width: 650px;
 }
-.box-inform__title {
+
+.inform__title {
   color: #4b90de;
 }
-.box-inform__text {
+
+.inform__text {
   margin-top: 30px;
 }
-.box-inform__button {
+
+.inform__button {
   background-color: #2073d4;
   color: #fff;
   line-height: 70px;
@@ -142,20 +163,24 @@ a {
   font-size: 20px;
   margin-top: 50px;
 }
-.box-inform__button:hover {
+
+.inform__button:hover {
   background-color: #005bbe;
   color: #fff;
 }
-.block-partners {
+
+.partners {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 168px;
 }
-.box-partners img {
+
+.partners__box img {
   padding: 0 10px;
 }
-.all-partners__button {
+
+.partners__button {
   line-height: 55px;
   width: 185px;
   border: 1px solid #6f6f6f;
@@ -164,61 +189,69 @@ a {
   display: inline-block;
   text-align: center;
 }
-.all-partners__button:hover {
+
+.partners__button:hover {
   color: #fff;
   background-color: #817873;
 }
-.block-promotion {
+
+.promotion {
   width: 1310px;
   height: 270px;
   background-color: #f4c901;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background-image: url(picture/promotion/man.png);
   background-position: right;
   background-repeat: no-repeat;
 }
-.box-promotion {
+
+.promotion__box {
   width: 610px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-.box-promotion__text{
+
+.promotion__title {
   padding-top: 70px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.skills-promotion {
+
+.promotion__text {
   font-size: 16px;
   color: rgba(0,0,0,.55);
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.box-promotion__text a {
+
+.promotion__title a {
   color: #000;
   font-weight: normal;
 }
-.box-promotion__text a:hover {
+
+.promotion__title a:hover {
   text-decoration: underline;
 }
-.more-promotion {
-  padding-top: 16px;
-}
-.more-promotion__button {
+
+.promotion__button {
   background-color: #2073d4;
   width: 115px;
   line-height: 50px;
   display: inline-block;
   text-align: center;
   color: #fff;
+  margin-top: 15px;
 }
-.more-promotion__button a:hover {
+
+.promotion__button a:hover {
   background-color: #005bbe;
 }
+
 .work__text {
   text-align: center;
 }
+
 .work__block {
   height: 585px;
   display: flex;
@@ -226,27 +259,34 @@ a {
   border-bottom: 1px solid #e1e1e1;
   overflow: hidden;
 }
+
 .work__list {
   width: 34%;
   margin-left: 180px;
   font-size: 23px;
 }
+
 .work__list a {
   color: #D3D3D3;
 }
+
 .work__list a:hover {
   color: #A9A9A9;
 }
-.work__list__text {
+
+.work__list-text {
   font-size: 15px;
 }
-ol {
+
+.work__block ol {
   list-style-type: none;
 }
-li {
+
+.work__block li {
   padding-bottom: 40px;
 }
-.work__list__num {
+
+.work__list-num {
   width: 28px;
   display: inline-block;
   text-align: center;
@@ -257,25 +297,29 @@ li {
   margin-right: 55px;
   font-size: 13px;
 }
-.work__list__text {
+
+.work__list-text {
   display: block;
   padding-left: 90px;
   padding-top: 10px;
   line-height: 25px;
   font-size: 13px;
 }
-.work__list__title {
+
+.work__title {
   padding-bottom: 2px;
 }
+
 .work__inform {
   margin-left: 20px;
   width: 66%;
   height: 804px;
   background-image: url(picture/Hiworks/howitworks_ipad_v2.png.jpeg);
   background-repeat: no-repeat;
-  background-position: top-right;
+  background-position: top right;
   background-size: 100%;
 }
+
 .business {
   height: 320px;
   border-bottom: 1px solid #e1e1e1;
@@ -283,10 +327,12 @@ li {
   padding-bottom: 60px;
   padding-top: 55px;
 }
+
 .business__caption {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .business__inform {
   background-image: url(picture/business/C2BFinalLogosDesktop3.png.jpeg);
   background-repeat: no-repeat;
@@ -295,9 +341,11 @@ li {
   height: 95px;
   margin-bottom: 45px;
 }
+
 .business__text  {
   margin: 0 0 45px 0;
 }
+
 .business__button {
   width: 133px;
   height: 43px;
@@ -309,35 +357,44 @@ li {
   font-size: 14px;
   font-weight: bold;
 }
+
 .business__button a {
-  color: #0000FF;
+  color: #00f;
 }
+
 .business__button a:hover {
   color: #fff;
 }
+
 .business__button:hover {
   background-color: #2073d4;
 }
+
 .footer {
   display: flex;
   justify-content: center;
 }
+
 .footer__inform {
   height: 175px;
   width: 375px;
   padding-right: 40px;
 }
+
 .footer__inform-logo {
   margin-top: 15px;
 }
+
 .footer__inform-title {
   font-size: 11px;
   padding-bottom: 15px;
   padding-top: 10px;
 }
+
 .footer__inform-apps a {
   display: inline-block;
 }
+
 .footer__inform-oxs {
   background-image: url(picture/footer/download_on_the_app_store_badge_ru.svg);
   background-repeat: no-repeat;
@@ -345,33 +402,39 @@ li {
   height: 45px;
   width: 151.883px;
 }
+
 .footer__inform-android {
   background-image: url(picture/footer/ru_generic_rgb_wo_45.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100%;
   height: 45px;
-  width: 151.333px;
+  width: 152px;
 }
+
 .footer__list {
   height: 395px;
   width: 460px;
   display: flex;
   margin-right: 60px;
 }
+
 .footer__list a {
   color: #A9A9A9;
 }
+
 .footer__list a:hover {
   color: #2073d4;
   text-decoration: underline;
 }
+
 .footer__list-item {
   display: block;
   width: 95px;
   padding-right: 50px;
   line-height: 2.5;
 }
+
 .footer__list-text {
   text-transform: uppercase;
   margin: 0;
