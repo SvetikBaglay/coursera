@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-position: center;
+  font-size: 14px;
 }
 
 header {
@@ -98,7 +99,7 @@ h3 {
   background-color: #2073d4;
   color: #fff;
   text-align: center;
-  font-size: 14px;
+  text-decoration: none;
 }
 
 .logo__button:hover {
@@ -107,8 +108,8 @@ h3 {
 
 .logo__info {
   color: #000;
-  font-size: 14px;
   padding-right: 50px;
+  text-decoration: none;
 }
 
 .logo__info:hover {
@@ -116,16 +117,13 @@ h3 {
 }
 
 .logo__login {
-  font-size: 14px;
   padding-right: 25px;
   color: #2a73cc;
+  text-decoration: none;
 }
 
 .wrap {
   width: 100%;
-}
-a {
-  text-decoration: none;
 }
 
 .inform {
@@ -139,6 +137,7 @@ a {
 .inform__title {
   margin: 0;
 }
+
 .inform__box {
   padding-left: 300px;
   padding-top: 195px;
@@ -162,6 +161,7 @@ a {
   display: inline-block;
   font-size: 20px;
   margin-top: 50px;
+  text-decoration: none;
 }
 
 .inform__button:hover {
@@ -188,6 +188,7 @@ a {
   background-color: #fff;
   display: inline-block;
   text-align: center;
+  text-decoration: none;
 }
 
 .partners__button:hover {
@@ -196,7 +197,7 @@ a {
 }
 
 .promotion {
-  width: 1310px;
+  width: 1300px;
   height: 270px;
   background-color: #f4c901;
   margin: 0 auto;
@@ -208,8 +209,7 @@ a {
 .promotion__box {
   width: 610px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .promotion__title {
@@ -228,6 +228,7 @@ a {
 .promotion__title a {
   color: #000;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .promotion__title a:hover {
@@ -242,9 +243,10 @@ a {
   text-align: center;
   color: #fff;
   margin-top: 15px;
+  text-decoration: none;
 }
 
-.promotion__button a:hover {
+.promotion__button:hover {
   background-color: #005bbe;
 }
 
@@ -268,6 +270,7 @@ a {
 
 .work__list a {
   color: #D3D3D3;
+  text-decoration: none;
 }
 
 .work__list a:hover {
@@ -333,7 +336,7 @@ a {
   margin-bottom: 10px;
 }
 
-.business__inform {
+.business__logo {
   background-image: url(picture/business/C2BFinalLogosDesktop3.png.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -349,20 +352,21 @@ a {
 .business__button {
   width: 133px;
   height: 43px;
+  color: #0156b8;
   background-color: #fff;
   text-align: center;
   border: 1px solid #2073d4;
   display: inline-block;
   line-height: 43px;
-  font-size: 14px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .business__button a {
   color: #00f;
 }
 
-.business__button a:hover {
+.business__button:hover {
   color: #fff;
 }
 
@@ -413,7 +417,6 @@ a {
 }
 
 .footer__list {
-  height: 395px;
   width: 460px;
   display: flex;
   margin-right: 60px;
@@ -421,6 +424,7 @@ a {
 
 .footer__list a {
   color: #A9A9A9;
+  text-decoration: none;
 }
 
 .footer__list a:hover {
@@ -439,4 +443,9 @@ a {
   text-transform: uppercase;
   margin: 0;
   font-size: 15px;
+}
+
+/*
+* {
+  border: 1px solid red;
 }
